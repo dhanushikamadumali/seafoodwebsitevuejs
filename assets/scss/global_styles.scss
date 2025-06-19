@@ -1,0 +1,26 @@
+// mobile & tabs   only media query
+.mobile_header {
+    @media (min-width: 480px) {
+      display: none;
+    }
+    @media (max-width: 768px) {
+      display: block;
+    }
+    @media (min-width: 768px) and (max-width: 1024px) {
+      display: block;
+    }
+   
+  }
+// web only media query
+.web_header {
+  @media screen and (max-width: 600px) {
+    display: none;
+  }
+  @media (min-width: 600px) and (max-width: 1024px) {
+    display: none;
+  }
+  @media screen and (min-width: 1366px) {
+    display: block;
+  }
+ 
+}

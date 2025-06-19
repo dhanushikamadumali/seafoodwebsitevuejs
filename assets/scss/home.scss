@@ -1,0 +1,425 @@
+.home_alignments {
+  .section_one {
+    .main_continer {
+      width: 100%;
+      height: 935px;
+      position: relative;
+      .bgsheetone {
+        background-color: #f5951f;
+        margin-top: -200px;
+        @media screen and (max-width: 600px) {
+          height: 935px;
+          margin-top: 20px;
+          margin-right: 0px;
+        }
+        @media (min-width: 768px) and (max-width: 1024px) {
+          height: 935px;
+          margin-top: 20px;
+          margin-right: 0px;
+        }
+        @media (min-width: 1024px) and (max-width: 1366px) {
+          height: 935px;
+          margin-top: 20px;
+          margin-right: 0px;
+        }
+      }
+      .bgsheettwo {
+        background-color: #27abe2;
+        height: 935px;
+        margin-top: -52px;
+
+        @media screen and (max-width: 600px) {
+          height: 935px;
+          margin-top: 20px;
+          margin-right: 0px;
+        }
+        @media (min-width: 768px) and (max-width: 1024px) {
+          height: 935px;
+          margin-top: 20px;
+          margin-right: 0px;
+        }
+        @media (min-width: 1024px) and (max-width: 1366px) {
+          height: 935px;
+          margin-top: 20px;
+          margin-right: 0px;
+        }
+      }
+      .bgsheetthree {
+        background-color: #f5951f;
+        margin-top: -85px;
+        @media screen and (max-width: 600px) {
+          height: 935px;
+          margin-top: 20px;
+          margin-right: 0px;
+        }
+        @media (min-width: 768px) and (max-width: 1024px) {
+          height: 935px;
+          margin-top: 20px;
+          margin-right: 0px;
+        }
+        @media (min-width: 1024px) and (max-width: 1366px) {
+          height: 935px;
+          margin-top: 20px;
+          margin-right: 0px;
+        }
+      }
+      .bgimage1 {
+        width: 1200px;
+        height: 1500px;
+        margin-top: 300px;
+        margin-left: 360px;
+        @media (min-width: 1024px) and (max-width: 1366px) {
+          width: 1200px;
+          height: 100%;
+          margin-top: 100px;
+          margin-left: 200px;
+        }
+      }
+      .bgimage2 {
+        width: 1100px;
+        height: 800px;
+        margin-top: 200px;
+        margin-left: 450px;
+        @media (min-width: 1024px) and (max-width: 1366px) {
+          height: 100%;
+          margin-top: 100px;
+          margin-left: 200px;
+        }
+      }
+      .bgimage3 {
+        width: 1500px;
+        height: 850px;
+        margin-top: 220px;
+        @media (min-width: 1024px) and (max-width: 1366px) {
+          height: 100%;
+          margin-top: 150px;
+          margin-left: 8px;
+        }
+      }
+      .sub_container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 10;
+      }
+      .slider_one_heading {
+        color: #ffffff;
+        font-family: Inter;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 77.45px;
+        text-align: left;       
+        @media screen and (max-width: 600px) {
+          text-align: center;
+          font-size: 48px;
+        }
+        @media (min-width: 768px) and (max-width: 1024px) {
+          text-align: center;
+          font-size: 48px;
+        }
+      }
+      .slider_one_para {
+        color: #ffffff;
+        font-family: Inter;
+        font-size: 25px;
+        font-weight: 500;
+        line-height: 38.73px;
+        text-align: left;
+        margin-top: 40px;       
+        @media screen and (max-width: 600px) {
+          text-align: center;
+          font-size: 18px;
+        }
+        @media (min-width: 768px) and (max-width: 1024px) {
+          text-align: center;
+          font-size: 18px;
+        }
+      }
+      .btncontainer {
+        @media screen and (max-width: 600px) {
+          text-align: center;
+        }
+        @media (min-width: 768px) and (max-width: 1024px) {
+          text-align: center;
+        }
+      }
+
+      .shopnow_btn {
+        background-color: #ffffff;
+        color: #f5951f;
+        font-family: Lato;
+        font-size: 24px;
+        text-align: center;
+        text-transform: capitalize;
+        margin-top: 50px;
+        width: 150px;
+        height: 40px;
+        letter-spacing: 0px;
+      }
+      .shopnow_btnslidertwo {
+        background-color: #ffffff;
+        color: #27abe2;
+        font-family: Lato;
+        font-size: 24px;
+        text-align: center;
+        text-transform: capitalize;
+        margin-top: 50px;
+        margin-left: 2px;
+        width: 150px;
+        height: 40px;
+        letter-spacing: 0px;
+      }
+    }
+  }
+
+  .section_two {
+    .main_continer {
+      .view_more {
+        background-color: #f5951f;
+        color: #ffffff;
+        font-family: Lato;
+        text-transform: none;
+        font-size: 26px;
+        text-align: center;
+        padding-bottom: 12px;
+        padding-top: 2px;
+      }
+    }
+  }
+
+  //Section three Styles
+  .section_three {
+    .main_continer {
+      margin-top: 150px;
+    }
+
+    .image-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-right: 10px;
+    }
+    .BannerImage {
+      width: 100%;
+      max-height: 700px;
+      border-radius: 8px;
+    }
+    .reel {
+      margin-top: 5px;
+      font-family: Inter;
+      font-size: 64px;
+      font-weight: bold;
+      font-weight: bold;
+      line-height: 77.45px;
+      text-align: right;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+      padding-top: 45px;
+    }
+    .sub-reel {
+      font-family: Inter;
+      font-size: 25px;
+      text-align: end;
+      padding-top: 25px;
+      padding-bottom: 40px;
+    }
+    .shop-now {
+      background-color: #f5951f;
+      color: #ffffff;
+      font-family: Lato;
+      font-size: 24px;
+      text-align: center;
+      text-transform: none;
+      padding-bottom: 12px;
+      padding-top: 2px;
+    }
+    .button-container {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    /* Responsive Styles */
+    @media (max-width: 768px) {
+      .main_continer {
+        margin-top: 100px;
+      }
+
+      .reel {
+        font-size: 36px;
+        line-height: 48px;
+        text-align: left;
+      }
+
+      .sub-reel {
+        font-size: 18px;
+        text-align: left;
+        padding-top: 15px;
+        padding-bottom: 30px;
+      }
+
+      .button-container {
+        justify-content: left;
+      }
+
+      .BannerImage {
+        max-height: 400px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .main_continer {
+        margin-top: 50px;
+      }
+
+      .reel {
+        font-size: 28px;
+        line-height: 36px;
+        text-align: left;
+        padding-top: 20px;
+      }
+
+      .sub-reel {
+        font-size: 16px;
+        text-align: left;
+        padding-top: 10px;
+        padding-bottom: 20px;
+      }
+
+      .BannerImage {
+        max-height: 250px;
+      }
+    }
+  }
+
+  .section_four {
+    .main_continer {
+      margin-top: 140px;
+      .slider_title {
+        font-family: Inter;
+        font-size: 30px;
+        font-weight: 600;
+        @media (min-width: 320px) and (max-width: 425px) {
+          font-size: 20px;
+        }
+      }
+      .see_all {
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 600;
+        @media (min-width: 320px) and (max-width: 425px) {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+  .section_five {
+    .main_continer {
+      margin-top: 150px;
+    }
+
+    .image-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-right: 10px;
+    }
+    .BannerImage {
+      width: 100%;
+      max-height: 700px;
+      border-radius: 8px;
+    }
+    .reel {
+      font-family: Inter;
+      font-size: 59px;
+      font-weight: bold;
+      line-height: 77.45px;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+      padding-top: 45px;
+    }
+    .sub-reel {
+      font-family: Inter;
+      font-size: 25px;
+      text-align: left;
+      padding-top: 25px;
+      padding-bottom: 40px;
+    }
+    .shop-now {
+      background-color: #f5951f;
+      color: #ffffff;
+      font-family: Lato;
+      text-transform: none;
+      font-size: 26px;
+      text-align: center;
+      padding-bottom: 12px;
+      padding-top: 2px;
+    }
+    .button-container {
+      display: flex;
+      justify-content: flex-start;
+    }
+
+    /* Responsive Styles */
+    @media (max-width: 768px) {
+      .main_continer {
+        margin-top: 100px;
+      }
+      /* To maintain the sequence the image comes first, followed by text and button the css order property is used */
+      .text-column {
+        order: 2; /* Text comes second */
+      }
+
+      .image-container {
+        order: 1; /* Image comes first */
+      }
+
+      .reel {
+        font-size: 36px;
+        line-height: 48px;
+        text-align: left;
+      }
+
+      .sub-reel {
+        font-size: 18px;
+        text-align: left;
+        padding-top: 15px;
+        padding-bottom: 30px;
+      }
+
+      .button-container {
+        justify-content: left;
+      }
+
+      .BannerImage {
+        max-height: 400px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .main_continer {
+        margin-top: 50px;
+      }
+
+      .reel {
+        font-size: 28px;
+        line-height: 36px;
+        text-align: left;
+        padding-top: 20px;
+      }
+
+      .sub-reel {
+        font-size: 16px;
+        text-align: left;
+        padding-top: 10px;
+        padding-bottom: 20px;
+      }
+
+      .BannerImage {
+        max-height: 250px;
+      }
+    }
+  }
+}

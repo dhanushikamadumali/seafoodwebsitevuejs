@@ -1,0 +1,97 @@
+.header_alligns {   
+    .header_text{
+        display: flex;
+        align-items: center;
+        font-family: inter;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21px;
+        text-align: left;       
+    }   
+    .container {
+        position: relative; 
+        z-index: 1;          
+    }   
+    .headernavone {
+        background-color: #F5951F;
+        height: 38px; 
+        width: 100%;     
+        position: fixed;  
+        z-index: 10;   
+         
+    }
+    .hedernavtwo{      
+        height: 85px;
+        margin-top: 38px;  
+        padding:14px 0px 10px 0px;
+        align-items: center;       
+    } 
+    .hedernavthree{            
+        height: 62px; 
+        margin-top: 50px; 
+        padding-top: 5px;    
+               
+    }  
+    .navicon{
+        width: 20px;
+        height: 20px;  
+        color: #333333;
+        
+       
+    }
+    .menuicon{      
+        color: #333333;
+        margin: 0px 10px 5px 0px;  
+          
+    }  
+    .searchbox{
+      width: 620px;
+      height: 49.39px;       
+      border-radius: 5px;     
+      margin-right: 150px;       
+      border: 0px solid #ccc; 
+      @media screen and (max-width: 600px) {
+        width: 290px;
+       
+      }
+      @media (min-width: 768px) and (max-width: 1024px) {
+        width: 620px;
+       
+      }
+       @media (min-width: 1024px) and (max-width: 1366px) {
+        width: 620px
+   
+      }
+
+    
+        
+    }   
+    .searchicon{
+      background-color: #F5951F;
+      color: #FFFFFF;   
+      width: 38px;
+      height: 38px;   
+      border-radius: 5px 5px 5px 5px;
+      margin: 5px 0px 5px 0px;                        
+    }
+    .icon-with-divider {
+        display: flex;
+        align-items: center;
+    }  
+    .divider {
+        width: 1px;
+        height: 48px;
+        background-color: #ccc; 
+        margin-left: 10px; 
+    } 
+    .phoneno{
+       
+        height: 21px;
+        font-family: Jost;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 21px;                 
+        color:  #333333;
+    }
+    
+    }

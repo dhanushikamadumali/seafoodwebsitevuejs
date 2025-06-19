@@ -1,0 +1,70 @@
+.footer_align {
+  margin-top: 10%;
+  @media (max-width: 768px) {
+    margin-top: 20%;
+  }
+  // footer img and content
+  .web_header {
+    .left_para {
+      font-family: Inter;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 19.36px;
+      text-align: left;
+      color: #1b1b1b;
+    }
+  }
+
+  .mobile_header {
+    .img {
+      justify-items: center;
+    }
+
+    .left_para {
+      font-family: Inter;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 19.36px;
+      text-align: center;
+      color: #1b1b1b;
+    }
+  }
+  // footer Tabs
+  .right_header {
+    font-family: Inter;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: left;
+    color: #1b1b1b;
+  }
+
+  .right_text {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19.36px;
+    text-align: left;
+    color: #1b1b1b;
+  }
+
+  .navicon {
+    color: #f5951f;
+    margin-right: 10px;
+  }
+}
+
+// footer copyrights section
+.footer_section_below {
+  text-align: center;
+  height: 57px;
+}
+
+.copy_write_text {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  align-items: center;
+  color: #1b1b1b;
+}

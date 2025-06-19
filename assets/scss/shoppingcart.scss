@@ -1,0 +1,307 @@
+.shoppingcart_alignments {
+  .main_continer {
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+    @media (max-width: 768px) {
+      margin-top: 120px;
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+
+    .shop-cart-header {
+      font-family: Lato;
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 38.4px;
+      text-align: left;
+
+      @media (max-width: 768px) {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 38.4px;
+        text-align: center;
+      }
+    }
+
+    .table-head-text {
+      font-family: Inter;
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 21px;
+    }
+
+    .v-table thead th {
+      text-align: center; /* Centers the text in all headers */
+    }
+
+    .v-table thead th:first-child {
+      text-align: left; /* Align only the "Product" header to the left */
+    }
+
+    .v-table tbody td {
+      text-align: center; /* Center all table data */
+    }
+
+    .v-table tbody td:first-child {
+      text-align: left; /* Align only the "Product" column to the left */
+    }
+
+    .prod-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* This ensures the image fits within the space */
+      display: flex; /* Added for aligning the image */
+      align-items: center; /* Vertically center */
+      justify-content: start; /* Align to the left */
+
+      @media (max-width: 768px) {
+        width: 80px;
+        height: 75px;
+      }
+    }
+
+    .prod-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center; /* Vertically center */
+      align-items: flex-start; /* Align to the left */
+
+      font-family: Inter;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 19.36px;
+
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+      @media (max-width: 768px) {
+        font-size: 14px;
+        align-items: flex-end;
+      }
+    }
+
+    .price-text {
+      font-family: Inter;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 19.36px;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+      @media (max-width: 768px) {
+        font-size: 14px;
+        font-weight: 600;
+      }
+    }
+
+    .sub-total-text {
+      font-family: Inter;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 19.36px;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+      @media (max-width: 768px) {
+        font-size: 14px;
+        font-weight: bold;
+      }
+    }
+
+    .calc-div {
+      margin-left: 100px;
+      margin-top: 80px;
+      @media (max-width: 1024px) {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+    .order-summary-head {
+      max-width: 463px;
+      width: 100%;
+      height: 45px;
+      padding: 0px 10px 29px 10px;
+      gap: 0px;
+      border-radius: 0px 30px 0px 0px;
+      background-color: #27abe2;
+      font-family: Inter;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 19.36px;
+      text-align: left;
+      color: #ffffff;
+    }
+
+    .calc-table {
+      max-width: 463px;
+      width: 100%;
+      height: 100%;
+    }
+
+    .continue-shop-btn {
+      background-color: #f5951f !important;
+      font-family: Inter;
+      font-size: 16px;
+      font-weight: 600;
+      color: #ffffff;
+      line-height: 19.36px;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+      max-width: 463px;
+      height: 45px;
+      width: 100%;
+      text-transform: none;
+
+      @media (max-width: 480px) {
+      }
+    }
+    .proceed-checkout-btn {
+      background-color: #27abe285;
+      font-family: Inter;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 19.36px;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+      max-width: 463px;
+      height: 45px;
+      width: 100%;
+      text-transform: none;
+    }
+
+    .text-left {
+      font-family: Inter;
+      font-size: 16px;
+      line-height: 19.36px;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+
+      @media (max-width: 480px) {
+        font-size: 12px;
+        font-weight: 600;
+      }
+    }
+    .text-left-bold {
+      font-family: Inter;
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 19.36px;
+      text-align: left;
+      background-color: #f6f6f6;
+      @media (max-width: 480px) {
+        font-size: 12px;
+        font-weight: bold;
+      }
+    }
+
+    .text-right {
+      font-family: Inter;
+      font-size: 16px;
+      line-height: 19.36px;
+      text-align: right;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+      @media (max-width: 480px) {
+        font-size: 12px;
+        font-weight: 600;
+      }
+    }
+
+    .text-right-bold {
+      font-family: Inter;
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 19.36px;
+      text-align: right;
+
+      background-color: #f6f6f6;
+      @media (max-width: 480px) {
+        font-size: 12px;
+        font-weight: bold;
+      }
+    }
+
+    .responsive-table {
+      width: 100%;
+      border-collapse: collapse;
+      @media (max-width: 768px) {
+        width: 100%;
+        border-collapse: collapse;
+
+        @media (max-width: 768px) {
+          thead {
+            display: none; /* Hide table head on mobile */
+          }
+
+          tr {
+            display: flex;
+            flex-wrap: wrap;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+          }
+
+          td {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            justify-content: space-between;
+            padding: 10px 0;
+          }
+          td[data-label="Product"]::before {
+            content: none;
+          }
+
+          td[data-label="Price"]::before {
+            content: attr(data-label);
+            font-size: 14px;
+            font-weight: 600;
+            flex-shrink: 0;
+          }
+          td[data-label="Quantity"]::before {
+            content: attr(data-label);
+            font-family: Inter;
+            font-size: 14px;
+            font-weight: 600;
+            flex-shrink: 0;
+            padding-right: 70%;
+
+            @media (max-width: 600px) {
+              padding-right: 60%;
+            }
+
+            @media (max-width: 480px) {
+              padding-right: 40%;
+            }
+          }
+
+          td[data-label="Sub Total"]::before {
+            content: attr(data-label);
+            font-family: Inter;
+            font-size: 14px;
+            font-weight: 600;
+            flex-shrink: 0;
+            text-align: left;
+          }
+          td[data-label="Action"]::before {
+            content: attr(data-label);
+            font-family: Inter;
+            font-size: 14px;
+            font-weight: 600;
+            flex-shrink: 0;
+
+            text-align: left;
+          }
+        }
+      }
+    }
+  }
+}
