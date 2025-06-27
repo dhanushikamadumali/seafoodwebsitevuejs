@@ -102,7 +102,7 @@ import Prawn from '@/assets/images/SingleProduct/Prawn.png';
 import RiverPrawn from '@/assets/images/SingleProduct/RiverPrawn.png';
 import Shrimps from '@/assets/images/SingleProduct/Shrimps.png';
 import Prawnone from '@/assets/images/SingleProduct/Prawn.png';
-import RiverPrawnone from '@/assets/images/SingleProduct/RiverPrawn.png';
+
 import Shrimpsone from '@/assets/images/SingleProduct/Shrimps.png';
 export default {
     data () {
@@ -136,13 +136,7 @@ export default {
               "Minimum Weight 500g",
             price: "Rs.2490.00",
           },
-             {
-                img: RiverPrawnone,
-                title: "Giant River Prawns",
-                subtitle:
-                  "Minimum Weight 500g",
-                price: "Rs.2490.00",
-              },
+           
              {
                 img: Shrimpsone,
                 title: "Shrimps",
